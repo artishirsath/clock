@@ -1,0 +1,227 @@
+.container{
+    padding-top: 25px;
+    height: 555px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #3D087B;
+    border: solid black;
+    justify-content: center;
+}
+.box1{
+    gap: 10px;
+    display: flex;
+    height: 530px;
+    width: 400px;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.box2{
+    gap: 10px;
+    display: flex;
+    height: 530px;
+    width: 400px;
+    flex-direction: column;
+    padding-right: 50px;   
+}
+.lef{
+    border-radius: 10px;
+    border: 1px;   
+}
+.lef1{
+    width: 380px;
+    height: 100px;    
+}
+.lef2{
+    width: inherit;
+    height: 410px;
+    background-color: white;
+
+}
+#SetWakeUpTime , #SetLunchTime ,#SetNapTime, #SetNightTime{
+    display: grid;    
+    grid-template-columns: 1fr 2fr 2fr  ;
+    grid-template-rows: auto;
+    padding: 2% 2%;
+}
+
+
+.line{
+    width: 1px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: black; 
+    border-collapse: separate;
+    margin: 0  0  0 4% ;
+    padding: 0;
+}
+
+.spanClass{
+    color: #3D087B;
+    font-size: 1.1em;
+    font-family: sans-serif;
+}
+
+.lef3{
+    height: 100px;
+    width: 400px;
+    opacity: 1;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    background-color: #250337;
+    border: 1px;
+
+}
+#setAlarmGridContainer{
+    display: grid;
+    grid-template-columns: 50% 45%;
+    grid-template-rows:  50px 60px ;
+    text-align: center;
+}
+
+#setAlarmGridItem1{
+    background: linear-gradient(to right , purple, lightpink);
+    grid-row:  1 / 1  ;
+    font-size: larger;
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    padding: 5%;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+
+
+#setAlarmGridItem2{
+    background-color:  #5F0089;
+    grid-row:  1 / span 2  ;
+    border-radius: 5px;
+    color: #F25CFE;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    padding: 4%;
+    margin: 2%;
+}
+
+
+
+.right1{
+    width: 390px;
+    height: 90px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+#timeDiv{
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    
+    
+}
+
+#timeText{
+    text-align: center;
+    vertical-align: middle;
+    height: auto;
+    width: 18%;
+    background-color: white;
+    height: 10vh;
+    padding-top: 5%;
+    margin: auto;
+    color:#3D087B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#hours{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F6E2FF;
+    height: 50px;
+    width: 18%;    
+    color:#3D087B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px 1vw ;
+    padding-top: 5px;
+}
+#mins{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F6E2FF;
+    height: 50px;
+    width: 18%;   
+    padding-top: 5px;
+    color:#3D087B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px 1vw ;
+}
+#sec{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F6E2FF;
+    height: 50px;
+    width: 18%;    
+    color:#3D087B;
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px 1vw ;
+}
+
+
+
+.colon{
+    padding-top: 6.5%;
+    font-size: x-large;
+    padding-top: 4%;
+}
+
+  
+
+#AMPM{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F6E2FF;
+    height: 50px;
+    width: 18%;    
+    color:#3D087B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px 1vw ;
+    padding-top: 5px;
+    background-image: url(./AM_svg\ \(1\).png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.right2{
+    width: 390px;
+    height: 90px;
+    font-family:bauhaus-hv-bt, Bauhaus Hv BT;
+    color: #8E53F0;
+    font-weight: bolder;
+    opacity: 1;
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.right3{
+    width: 390px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
