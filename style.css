@@ -1,22 +1,22 @@
 .container{
-    padding-top: 25px;
-    height: 555px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    background-color: #3D087B;
-    border: solid black;
+    margin: 2%;
     justify-content: center;
+    display: flex;
+   
+}
+body{
+    background-color: #3D087B;
 }
 .box1{
     gap: 10px;
     display: flex;
     height: 530px;
-    width: 400px;
+    width: 450px;
     flex-direction: column;
     padding-left: 50px;
 }
 .box2{
+    padding-left: 50px;
     gap: 10px;
     display: flex;
     height: 530px;
@@ -64,7 +64,7 @@
 
 .lef3{
     height: 100px;
-    width: 400px;
+    width: 450px;
     opacity: 1;
     color: #FFFFFF;
     font-size: 20px;
@@ -91,6 +91,7 @@
     padding: 5%;
     margin: 2%;
     border-radius: 5px;
+
 }
 
 
@@ -103,6 +104,8 @@
     font-family: Georgia, 'Times New Roman', Times, sans-serif;
     padding: 4%;
     margin: 2%;
+    line-height: 10px;
+    font-size: 12px;
 }
 
 
@@ -218,6 +221,44 @@
     height: 300px;
 }
 
+@media screen and (min-width : 220px) and (max-width : 600px){
+    .container{
+        flex-direction: column;
+        gap: 10px;
+        height: 100%;
+        width: inherit;
+        padding-top: 20px;
+        position: relative;
+        right: 15px;
+
+    }
+    .lef3{
+        width: 300px;
+    }
+    .setAlarmGridItem1{
+        font-size: 15px;
+    }
+    .lef2{
+        width: 300px;
+    }
+    #setAlarmGridContainer{
+        grid-template-columns: 35% 35%;
+    }
+    .box1{
+        justify-content: end;
+    }
+    .right1{
+        width: 310px;
+    }
+    .right2{
+        width: 310px;
+    }
+    #img{
+        width: 310px;
+        height: 250px;
+    }
+    
+}
 
 
 
