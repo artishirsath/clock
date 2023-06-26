@@ -10,19 +10,19 @@ function time(){
 
     
     
-    document.getElementById('mins').innerText = min + '\n'+ ' Min';
-    document.getElementById('sec').innerText = sec + '\n'+' Sec';
+    document.getElementById('mins').innerText = min + '\n'+ ' mins';
+    document.getElementById('sec').innerText = sec + '\n'+' secs';
     
 
     if (hrs > 12 ){
         hrs =  hrs - 12  ;
         AMPM = 'PM';  // 
-        document.getElementById('hours').innerText = hrs +   '\n'+ ' Hr';
+        document.getElementById('hours').innerText = hrs +   '\n'+ ' hour';
         document.getElementById('AMPM').innerText = AMPM;
 
     }
     else {
-        document.getElementById('hours').innerText = hrs +   '\n'+ ' Hr';
+        document.getElementById('hours').innerText = hrs +   '\n'+ ' hour';
         AMPM = 'AM';
         document.getElementById('AMPM').innerText = AMPM;
     }
