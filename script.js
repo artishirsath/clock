@@ -101,7 +101,7 @@ function getTimeDetails(){
     }
 
    else if (arrWakeTime[0] === (hrs1+AMPM1)){
-            img = "<img src=./windo.png height='320px' width='390px'>"
+            img = "<img src=./windo.png height='320px' width='450px'>"
             document.getElementById('imageTag').innerHTML  = img;
             document.getElementById('grabSomeBreakfastheading').innerText ="GRAB SOME HEALTHY BREAKFAST    !!!. ";
             document.getElementById('messageParaAsPerTime').innerText ="GOOD MORNING  !! WAKE UP  !!   .";
@@ -111,7 +111,7 @@ function getTimeDetails(){
          }
 
    else if (arrLunchTime[0] === (hrs1+AMPM1)){
-    img = "<img src=./group1.png height='320px' width='390px'>"
+    img = "<img src=./group1.png height='320px' width='450px'>"
         document.getElementById('img').innerHTML  = img;
         document.getElementById('grabSomeBreakfastheading').innerText ="LET'S HAVE SOME LUNCH     !!.  ";
         document.getElementById('messageParaAsPerTime').innerText ="GOOD AFTERNOON !! TAKE SOME SLEEP   !!!!!.  ";
@@ -126,7 +126,7 @@ function getTimeDetails(){
 
 
    else if (arrNapTime[0] === (hrs1+AMPM1)){
-    img = "<img src=./lunch_image.png height='320px' width='390px'>"
+    img = "<img src=./lunch_image.png height='320px' width='450px'>"
     document.getElementById('img').innerHTML  = img;
     document.getElementById('grabSomeBreakfastheading').innerText ="STOP YAWNING, GET SOME TEA.. ITS JUST EVENING  !!!   ";
     document.getElementById('messageParaAsPerTime').innerText ="GOOD EVENING    !!  .";
@@ -140,7 +140,7 @@ function getTimeDetails(){
 
     else if (arrNightTime[0] === (hrs1+AMPM1))
     {
-        img ="<img src=./night1.png height='320px' width='390px'>"
+        img ="<img src=./night1.png height='320px' width='450px'>"
         document.getElementById('img').innerHTML  = img;
         document.getElementById('grabSomeBreakfastheading').innerText
          ="CLOSE YOUR EYES AND GO TO SLEEP";
