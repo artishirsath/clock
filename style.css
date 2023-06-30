@@ -240,44 +240,40 @@ body{
     margin-top: -66px;
 }
  
-@media screen and (min-width : 200px) and (max-width : 700px){
+@media screen and (min-width : 220px) and (max-width : 700px){
     .container{
         flex-direction: column;
         gap: 30px;
         
     }
-    .box1{
-        width: 300px;
-    }
-    .box2{
-        width: 300px;
-        padding-left: 30px;
-    }
-    #setAlarmGridItem1{
-        font-size: inherit;
-    }
-    .lef3{
-        width: 300px;
-    }
     .right{
-        width: inherit;
+        width: 350px;
         font-size: inherit;
-    }
-    .opa1{
-        width: 270px;
     }
     .opa2{
-        width: 280px;
-    }
-    .imageTag{
-width: auto;
-    }
-    
+        width: 330px;
 
-   
+    }
+    .opa1{
+        width: 310px;
+    }
+    .box2{
+        padding-left: inherit;
+    }
+    .box1{
+        width: inherit;
+        padding-left: inherit;
+    }
+    .lef3{
+        width: 344px;
+    }
+    #img img{
+        width: 350px;
+    }
 
- 
+
 }
+
 
 
 
