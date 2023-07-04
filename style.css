@@ -247,18 +247,36 @@ body{
         
     }
     .right{
-        width: 350px;
+        width: 345px;
         font-size: inherit;
+    }
+    .right1{
+        position: relative;
+        top: -95%;
+    }
+    
+    .right2{
+        position: relative;
+        top: -96%;
+    }
+    .lef2{
+        position: relative;
+        top: 42%;
     }
     .opa2{
         width: 330px;
+        position: relative;
+        top: -94%;
 
     }
     .opa1{
-        width: 310px;
+        width: 320px;
+        position: relative;
+        top: -95%;
     }
     .box2{
         padding-left: inherit;
+        width: inherit;
     }
     .box1{
         width: inherit;
@@ -266,9 +284,17 @@ body{
     }
     .lef3{
         width: 344px;
+        position: relative;
+        top: 105%;
     }
     #img img{
-        width: 350px;
+        width: 343px;
+        position: relative;
+        top: -64%;
+    }
+    #setAlarmGridContainer{
+        position: relative;
+        top: 105%;
     }
 
 
